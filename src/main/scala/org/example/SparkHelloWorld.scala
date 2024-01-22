@@ -16,6 +16,7 @@ object SparkHelloWorld {
       StructField("Age", IntegerType, true)
     ))
 
+
     val data = Seq(
       Row("Alice", 25),
       Row("Bob", 30),
